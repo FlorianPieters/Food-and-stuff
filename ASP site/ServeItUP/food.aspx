@@ -11,9 +11,14 @@
 			<link href='https://fonts.googleapis.com/css?family=Archivo+Narrow:400italic' rel='stylesheet' type='text/css'/>
 
 			<meta charset="utf-8"/>
+            <meta http-equiv="X-UA-Compatible" content="IE-edge" />
 
 	</head>
 	<body>
+
+
+       
+
 		<header>
 			<h1>Serve it UP</h1>
 			<nav>
@@ -31,14 +36,17 @@
 		<div class="main">
 			<h2>Info</h2>
 			<p>Meer info over onze site</p>
-			
+
+            
+
 		</div>
 		<footer>
-			
+			 <button onclick="fbLogoutUser()">Logout</button>
 		</footer>
 
-
+        
 		
 
 	</body>
+     <script type="text/javascript" src="/Scripts/facebookintegration.js"></script>
 </html>
