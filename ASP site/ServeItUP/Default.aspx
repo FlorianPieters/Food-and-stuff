@@ -18,6 +18,10 @@
      <button onclick="fbLogoutUser()">Logout</button>
     <button onclick="getInfo()">Get info</button>
 
+
+
+
+
 <!-- <script>
  
   function statusChangeCallback(response) {
