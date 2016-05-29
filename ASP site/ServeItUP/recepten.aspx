@@ -29,10 +29,7 @@
 		</header>
 		<div class="main">
 			<div class="form">
-  				Recept naam:<br/>
- 				 <input class="left" type="text" name="recept" value=""/><br/>
-  				Auteur:<br/>
- 				 <input  type="text" name="auteur" value=""/><br/><br/>
+ 				 <input class="left" type="text" name="recept" value=""/> 							
 				  <input  class="right" type="submit" value="Zoek"/>
 			</div>
 			<div class="ingredienten">
