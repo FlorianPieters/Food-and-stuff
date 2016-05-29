@@ -29,10 +29,20 @@
 		</header>
 		<div class="main">
 			<div class="form">
- 				 <input class="left" type="text" name="recept" value=""/> 							
-				  <input  class="right" type="submit" value="Zoek"/>
+ 				<form runat="server">
+                <asp:TextBox ID="zoekText" runat="server"></asp:TextBox>						
+				 <asp:Button ID="zoekButton" runat="server" Text="zoek"  OnClick="zoekButton_Click1" /></form>
 			</div>
-			<div class="ingredienten">
+
+
+
+            <div class="output">
+
+              
+                <asp:Label ID="outputString" runat="server" Text="test" ></asp:Label>
+
+            </div>
+			<!--<div class="ingredienten">
 				<h2>Ingrediënten</h2>
 					<ol>
 						<li>450 g macaroni</li>
@@ -65,7 +75,8 @@
  					<p>Giet de pasta af en meng de kaassaus eronder. Voeg ook de geplette eieren toe en de reepjes of blokjes ham. Roer alles goed om en stort het mengsel in een ovenschaal.</p>
  					<p>Strooi de rest van de gemalen kaas gelijkmatig over de schotel en plaats het gerecht onder de hete grill van je oven.</p>
  
-		</div></div>
+		</div></div>-->
+            </div>
 		<footer>
 			
 		</footer>
