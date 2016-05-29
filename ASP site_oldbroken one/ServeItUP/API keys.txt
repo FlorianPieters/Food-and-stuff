@@ -1,0 +1,4 @@
+﻿Google Browser Key = AIzaSyCpElMvOap438tUVRy48LLNdUFoTBd2EKs
+OAuthID:
+	clientID = 783805352743-idole9umad5s7ij1k382h54mlmlvt80n.apps.googleusercontent.com
+	secret = HX6kezoc1f2QOgOGYLNSWlQI
