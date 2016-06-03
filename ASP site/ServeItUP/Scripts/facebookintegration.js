@@ -33,7 +33,7 @@ function login() {
     FB.login(function (response) {
         if (response.status === 'connected') {
             document.getElementById('status').innerHTML = 'Connected.';
-            window.location.href = "food.aspx";
+            
         }
         else if (response.status === 'not_authorized') {
             document.getElementById('status').innerHTML = 'You are not logged in.';
@@ -47,6 +47,9 @@ function getInfo() {
     FB.api('/me', 'GET', { fields: 'first_name,last_name,name,id' }, function (response) {
         document.getElementById('status').innerHTML = response.id;
     });
+}
+function next(){
+    window.location.href = "food.aspx";
 }
 
 /*function logout() {

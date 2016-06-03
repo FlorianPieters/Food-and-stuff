@@ -7,19 +7,23 @@
     <title>facebook</title>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <link rel="stylesheet" type="text/css" href="CSS/Default.css"/>
 
 </head>
 <body>
    
     <script type="text/javascript" src="/Scripts/facebookintegration.js"></script>
 
-    <div id = "status"></div>
-    <button onclick="login()">Login</button>
-     <button onclick="fbLogoutUser()">Logout</button>
-    <button onclick="getInfo()">Get info</button>
+  <div id = "status"></div>
+   
 
 
-
+    <div class="social-wrap a">
+    <button id="login" onclick="login()">Facebook login </button>
+    <button id="logout" onclick="fbLogoutUser()">Logout </button>
+    <button id="info" onclick="getInfo()">Info</button>
+    <button id="next" onclick="next()">Home page</button>
+    </div>
 
 
 <!-- <script>
